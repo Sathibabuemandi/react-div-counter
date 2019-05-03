@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <h1 onClick = {()=>{this.setState({clicks:this.state.clicks + 1});}}>
-      this div is clicked {this.state.clicks } times;
+      this div is clicked {this.state.clicks } times.
         
       </h1>
     );
