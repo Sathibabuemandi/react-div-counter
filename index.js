@@ -4,11 +4,14 @@ import Hello from './Hello';
 import './style.css';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      clicks: 0
-    };
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     clicks: 0
+  //   };
+  // }
+  state ={
+    clicks :0
   }
 
   render() {
