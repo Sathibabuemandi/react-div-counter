@@ -12,14 +12,14 @@ class App extends Component {
   // }
   state ={
     clicks :0
-  }
+  }  
 
   render() {
     return (
-      <h1 onClick = {()=>{this.setState({clicks:this.state.clicks + 1});}}>
+      <div onClick = {()=>{this.setState({clicks:this.state.clicks + 1});}}>
       this div is clicked {this.state.clicks } times.
         
-      </h1>
+      </div>
     );
   }
 }
